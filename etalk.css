@@ -1,0 +1,148 @@
+*,
+*::after,
+*::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    
+}
+
+body
+{
+    font-size: 1.6rem;
+    font-family: 'Kiwi Maru', serif;
+}
+
+.head
+{
+    text-align: center;
+    background-color: white;
+    margin: 2rem 3rem;
+    padding: 2.5rem 6rem;
+    background-color: rgba(126, 252, 0, 0.486);
+    box-shadow: 0 2rem 3rem rgba(126, 252, 0, 0.486);
+}
+
+.body
+{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 15rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    align-items: center;
+    text-align: center;
+    grid-gap: 0.5rem;
+    font-size: 2rem;
+}
+
+.item > img
+{
+    margin-top: 2rem;
+    width: 250px;
+    height: 250px;
+    object-fit:contain;
+    margin-top: 8rem;
+    transition: width 0.5s, height 1s;
+    
+}
+.item
+{
+    box-shadow: 0 2rem 3rem rgba(126, 252, 0, 0.26);
+    margin-right: 4rem;
+    padding-bottom: 4rem;
+}
+.item > img:hover
+{
+    width: 350px;
+    height: 350px;
+}
+
+h3
+{
+    padding-bottom: 2rem;
+}
+
+/* PANEL */
+.panel
+{
+
+    display: grid;
+    grid-template-rows: 350px;
+    margin-top: 10rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    margin-bottom: 6rem;
+    align-items: center;
+    text-align: center;
+    grid-gap: 0.5rem;
+    font-size: 2rem;
+}
+
+.it > img
+{
+    margin-top: 2rem;
+    width: 250px;
+    height: 250px;
+    object-fit:contain;
+    margin-top: 8rem;
+    transition: width 0.5s, height 1s;
+    
+}
+.it
+{
+    box-shadow: 0 2rem 3rem rgba(126, 252, 0, 0.486);
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-bottom: 4rem;
+}
+.it > img:hover
+{
+    width: 350px;
+    height: 350px;
+}
+
+/* .panel > img
+{
+    margin-top: 2rem;
+    width: 250px;
+    height: 300px;
+    object-fit:contain;
+    margin-top: 4rem;
+    margin-left: 25rem;
+    margin-bottom: -4rem;
+    transition: width 0.5s, height 1s;
+}
+
+.panel > img:hover
+{
+    width: 350px;
+    height: 350px;
+} */
+
+/* .panel
+{
+    text-align: center;
+    align-items: center;
+    display: grid;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    grid-template-rows: 350px;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.15);
+    font-size: 2rem;
+}
+
+.panel > h3
+{  
+    margin-bottom: 3rem;
+} */

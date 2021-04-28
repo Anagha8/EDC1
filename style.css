@@ -1,0 +1,253 @@
+*,
+*::after,
+*::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    
+}
+
+
+body
+{
+    font-size: 1.6rem;
+    font-family: 'Kiwi Maru', serif;
+}
+
+
+
+.navbar
+{
+display: grid;
+width: 100%;
+grid-template-columns: max-content 1fr;
+align-items: center;
+background-color: white;
+padding: 2.5rem 6rem;
+box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.15);
+align-items: center;
+}
+
+.name
+{
+    position: fixed;
+    top: 0;
+    right: 3rem;
+    
+}
+
+.name > img
+{
+    border-radius: 50%;
+    
+}
+.selectives
+{
+ justify-self: right;
+ 
+}
+
+.list
+{
+    list-style: none;
+    display:grid;
+    grid-auto-flow: column;
+
+}
+
+.list > li{
+    text-transform: uppercase;
+    margin: 0rem 0rem 2rem 3rem;
+    padding: 1rem 0rem;
+    letter-spacing: 0.2rem;
+    transition: all 0.2s;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active
+{
+    text-decoration: none;
+    color: black;
+ 
+    
+}
+
+/* HOME  */
+.home
+{
+    margin: 4rem 3em;
+    height: 80vh;
+    padding-top: 30vh;
+    font-size: 3rem;
+    background-image: url('./IMAGES/light-bulb-5964055_640.jpg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position:right;
+    color: black;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.15);
+    
+}
+
+.main
+{
+    padding-bottom: 2rem;
+    letter-spacing: 0.4rem;
+    font-size: 2rem;
+    margin-left: 2rem;
+    
+}
+
+.sec
+{
+    letter-spacing: 0.8rem;
+    margin-left: 16rem;
+}
+
+/* ONGOING EVENTS */
+.ongoing
+{
+    margin: 6rem 3em;
+    height: 90vh;
+    font-size: 3rem;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.15);
+    
+}
+.heado
+{
+    text-align: center;
+    background-color:rgba(250, 128, 114, 0.25);
+    box-shadow: 0 2rem 3rem rgba(250, 128, 114, 0.25);
+}
+
+.bodyo
+{
+    text-align: center;
+    margin-top: 25vh;
+}
+
+/* UPCOMING EVENTS */
+.upcoming
+{
+    margin: 6rem 3em;
+    height: 100vh;
+    font-size: 3rem;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.15);
+    
+}
+.headu
+{
+    
+    text-align: center;
+    background-color:rgba(46, 139, 86, 0.25);
+    box-shadow: 0 2rem 3rem rgba(46, 139, 86, 0.25);
+}
+
+h2
+{
+    padding-top: 3px;
+    
+}
+
+.bodyu
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 15rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    align-items: center;
+    text-align: center;
+    grid-gap: 2rem;
+    font-size: 2rem;
+    
+}
+
+.item > img
+{
+    
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    transition: width 1s, height 2s;
+    
+}
+
+.item > img:hover
+{
+    width: 350px;
+    height: 350px;
+}
+
+
+
+.item
+{
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.15);
+}
+
+h3
+{
+    padding-bottom: 2rem;
+}
+
+/* ALL EVENTS */
+.all
+{
+    margin: 6rem 3em;
+    height: 100%;
+    font-size: 3rem;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.15);
+    
+}
+.heada
+{
+    
+    text-align: center;
+    background-color:rgba(255, 255, 0, 0.548);
+    box-shadow: 0 2rem 3rem rgba(255, 255, 0, 0.548);
+}
+
+.bodya
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    text-align: center;
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
+    padding-bottom: 3rem;
+    
+}
+
+.item1
+{
+    font-size: 2rem;
+}
+
+.item1 > img
+{
+    margin-top: 2rem;
+    width: 100px;
+    height: 200px;
+    object-fit:contain;
+    transition: width 0.5s, height 1s;
+    
+}
+
+.item1 > img:hover
+{
+    width: 300px;
+    height: 300px;
+}
+
