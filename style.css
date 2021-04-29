@@ -287,25 +287,33 @@ h4
     html{
         font-size: 50%;
     }
+
+    body
+    {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
     .navbar
     {
 
     width: 100%;
-    font-size: 1rem;
+    font-size: 2.5rem;
     padding: 1rem 0.5rem;
 
     }
 
     .main
     {
-        font-size: 1.2rem;
+        font-size: 2rem;
+        padding-bottom: 00.2rem;
+        text-align:justify;
         
     }
     
     .sec
     {
-        font-size: 1rem;
-        margin-left: 8rem;
+        font-size: 1.5rem;
+        margin-left: 9rem;
         letter-spacing: 0.1rem;
     }
     .list > li
@@ -321,15 +329,7 @@ h4
         
     }
 
-    /* .item > img
-    {
-        transition: none;
-    }
-
-    .item1 > img
-    {
-        transition: none;
-    } */
+    
 }
 
 
@@ -363,15 +363,7 @@ h4
     
 }
 
-/* .item > img
-    {
-        transition: none;
-    }
-    
-    .item1 > img
-    {
-        transition: none;
-    } */
+
 
 }
 
@@ -391,15 +383,7 @@ h4
         
     }
 
-    /* .item > img
-    {
-        transition: none;
-    }
     
-    .item1 > img
-    {
-        transition: none;
-    } */
     
 }
 
@@ -437,13 +421,5 @@ h4
       font-size: 2.5rem;
     }
 
-    /* .item > img
-    {
-        transition: none;
-    }
     
-    .item1 > img
-    {
-        transition: none;
-    } */
 }
