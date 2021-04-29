@@ -35,6 +35,7 @@ box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.15);
 align-items: center;
 }
 
+
 .name
 {
     position: fixed;
@@ -68,10 +69,12 @@ align-items: center;
     padding: 1rem 0rem;
     letter-spacing: 0.2rem;
     transition: all 0.2s;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(61, 59, 59);
     cursor: pointer;
 
 }
+
+
 
 a:link,
 a:hover,
@@ -82,6 +85,12 @@ a:active
     color: black;
  
     
+}
+
+.list > li:hover
+{
+    border-bottom: 4px solid black;
+    border-radius: 5px;
 }
 
 /* HOME  */
@@ -100,6 +109,8 @@ a:active
     
 }
 
+
+
 .main
 {
     padding-bottom: 2rem;
@@ -113,6 +124,7 @@ a:active
 {
     letter-spacing: 0.8rem;
     margin-left: 16rem;
+
 }
 
 /* ONGOING EVENTS */
@@ -156,7 +168,7 @@ a:active
 
 h2
 {
-    padding-top: 3px;
+    padding-top: 4px;
     
 }
 
@@ -164,15 +176,19 @@ h2
 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin-top: 15rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    
     align-items: center;
     text-align: center;
+     margin-top: 10rem;
+     margin-left: 3rem;
+    margin-right: 3rem; 
+    margin-bottom: 12rem;
     grid-gap: 2rem;
     font-size: 2rem;
+    padding-bottom: 3rem;
     
 }
+
 
 .item > img
 {
@@ -251,3 +267,183 @@ h3
     height: 300px;
 }
 
+h4 
+{
+    bottom: 5%;
+    right: 2%;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: rgb(174, 125, 221);
+    color: white;
+}
+
+@media only screen  and (max-width:1044px)
+{
+    
+    html{
+        font-size: 50%;
+    }
+    .navbar
+    {
+
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem 0.5rem;
+
+    }
+
+    .main
+    {
+        font-size: 1.2rem;
+        
+    }
+    
+    .sec
+    {
+        font-size: 1rem;
+        margin-left: 8rem;
+        letter-spacing: 0.1rem;
+    }
+    .list > li
+    {
+        letter-spacing: 0.02rem;
+    }
+    .bodyu
+    {
+        display: grid;
+        grid-template-columns: repeat(1,5fr);
+        margin-top: 25rem;
+        grid-gap: 4rem;
+        
+    }
+
+    /* .item > img
+    {
+        transition: none;
+    }
+
+    .item1 > img
+    {
+        transition: none;
+    } */
+}
+
+
+@media only screen  and (max-width:580px)
+{
+    .bodya
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 0.8rem;
+    grid-column-gap: 0.8rem;
+    padding-bottom: 2rem;
+    
+}
+
+.item1
+{
+    font-size: 1rem;
+}
+.bodyu
+{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+     margin-top: 5rem;
+     margin-left: 1.2rem;
+    margin-right: 1.2rem; 
+    margin-bottom: rem;
+    grid-gap: 1rem;
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+/* .item > img
+    {
+        transition: none;
+    }
+    
+    .item1 > img
+    {
+        transition: none;
+    } */
+
+}
+
+@media only screen  and (max-height:800px)
+{
+    .bodyu
+    {
+        display: grid;
+        grid-template-rows: 200px 300px;
+         margin-top: 9rem;
+         margin-left: 1.2rem;
+        margin-right: 1.2rem; 
+        margin-bottom: 2rem;
+        grid-gap: 3rem;
+        font-size: 1rem;
+        padding-bottom: 1.5rem;
+        
+    }
+
+    /* .item > img
+    {
+        transition: none;
+    }
+    
+    .item1 > img
+    {
+        transition: none;
+    } */
+    
+}
+
+@media only screen  and (max-width:390px)
+{
+    .navbar
+    {
+
+    width: 100%;
+    font-size: 0.5rem;
+    padding: 0.5rem 0.25rem;
+
+    }
+
+    .main
+    {
+        font-size: 0.6rem;
+        
+    }
+    
+    .sec
+    {
+        font-size: 0.8rem;
+        margin-left: 4rem;
+        letter-spacing: 0.05rem;
+    }
+    .list > li
+    {
+        letter-spacing: 0.01rem;
+        padding-bottom: 00.5rem;
+    }
+
+    h2
+    {
+      font-size: 2.5rem;
+    }
+
+    /* .item > img
+    {
+        transition: none;
+    }
+    
+    .item1 > img
+    {
+        transition: none;
+    } */
+}
